@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="36dp"
+        android:background="#3F51B5"
+        android:padding="10dp"
+        android:shadowColor="#00F32121"
+        android:text="Beatles Anthology Vol. 1"
+        android:textColor="#FFC107"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="36dp"
+        android:padding="10dp"
+        android:text="Behind That Locked Door:Beatles Rarities!"
+        android:textColor="#000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="5dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="390dp"
+            android:layout_height="412dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="43dp"
+            android:longClickable="false"
+            android:text="In a vault deep inside Abbey Road Studios in London — protected by an unmarked, triple-locked, police-alarmed door — are something like 400 hours of unreleased Beatles recordings, starting from June 2, 1962 and ending with the very last tracks recorded for the Let It Be album. The best of the best were released by Apple Records in the form of the volume Anthology series. For more information, see the Beatles Time Capsule at In a vault deep inside.\n\nThis volume starts with the first new Beatle song, 'Free as a bird' (based on a John Lennon demo, found only on the bootleg The Lost Lennon Tapes Vol. 28, and covers the very easiest historical recordings, outtakes from the first albums, and live recordings from early concerts and BBC Radio sessions.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ea odio ab dolorem mollitia alias est qui consectetur, sunt enim cupiditate assumenda velit amet perspiciatis eius itaque voluptate aut! Soluta!\nLorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ea odio ab dolorem mollitia alias est qui consectetur, sunt enim cupiditate assumenda velit amet perspiciatis eius itaque voluptate aut! Soluta!\n\n Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur corporis, accusantium soluta veritatis mollitia atque quo voluptas pariatur beatae, fuga hic error sapiente vel cum commodi iste amet, laboriosam laborum.In a vault deep inside Abbey Road Studios in London — protected by an unmarked, triple-locked, police-alarmed door — are something like 400 hours of unreleased Beatles recordings, starting from June 2, 1962 and ending with the very last tracks recorded for the Let It Be album. The best of the best were released by Apple Records in the form of the volume Anthology series. For more information, see the Beatles Time Capsule at In a vault deep inside.\n\nThis volume starts with the first new Beatle song, 'Free as a bird' (based on a John Lennon demo, found only on the bootleg The Lost Lennon Tapes Vol. 28, and covers the very easiest historical recordings, outtakes from the first albums, and live recordings from early concerts and BBC Radio sessions.\n\nLorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ea odio ab dolorem mollitia alias est qui consectetur, sunt enim cupiditate assumenda velit amet perspiciatis eius itaque voluptate aut! Soluta!\nLorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ea odio ab dolorem mollitia alias est qui consectetur, sunt enim cupiditate assumenda velit amet perspiciatis eius itaque voluptate aut! Soluta!\n\n Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur corporis, accusantium soluta veritatis mollitia atque quo voluptas pariatur beatae, fuga hic error sapiente vel cum commodi iste amet, laboriosam laborum. "
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
